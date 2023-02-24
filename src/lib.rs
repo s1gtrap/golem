@@ -1,3 +1,5 @@
+pub mod fns;
+
 #[derive(Clone, Debug, PartialEq)]
 pub struct Universe(usize, usize, Vec<bool>, Vec<u8>);
 
